@@ -1,5 +1,5 @@
 
-package com.catatantech.re;
+package com.catatantech.re.repsilon;
 
 public class Measurement {
     private String id;

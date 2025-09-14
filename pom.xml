@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.catatantech.re</groupId>
-  <artifactId>RulesEngineEpsilon</artifactId>
+  <artifactId>repsilon</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
 
-  <name>RulesEngineEpsilon</name>
+  <name>repsilon</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,7 +34,11 @@
 
     <dependency>
       <groupId>org.drools</groupId>
-      <artifactId>drools-ruleunits-engine</artifactId>
+      <artifactId>drools-engine</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-xml-support</artifactId>
     </dependency>
 
     <dependency>
