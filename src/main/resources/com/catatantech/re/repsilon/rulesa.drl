@@ -1,0 +1,28 @@
+package com.catatantech.re.repsilon;
+
+import com.catatantech.re.repsilon.*;
+import com.catatantech.re.repsilon.iterasia.WorkerResult;
+
+
+/*
+siapa
+dimana
+team apa
+*/
+
+rule "hitung daily wage"
+when
+    // $w : /workerResult [ raw_material > 80]
+    $w : WorkerResult(rawMaterial > 80)
+then
+    $w.setResultPoint(10);
+end
+
+rule "hitung daily wage 2"
+when
+    // $w : /workerResult [ quality > 40 ]
+    $w : WorkerResult(quality > 6)
+then
+    $w.setResult("processed");
+end
+

@@ -9,3 +9,11 @@ when
 then
 	controlSet.add($colorVal);
 end
+
+
+// -----------------------
+
+/*
+
+original from netbeans
+*/

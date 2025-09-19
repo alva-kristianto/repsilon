@@ -1,6 +1,11 @@
-
 package com.catatantech.re.repsilon;
 
+
+/**
+ * from demo account
+ * 
+ * @author Admin
+ */
 public class Measurement {
     private String id;
     private String val;
